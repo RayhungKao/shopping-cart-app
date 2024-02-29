@@ -63,7 +63,7 @@ export default function Products() {
   };
   return (
     <>
-      <main className={`${productsStyles.product} ${inter.className}`}>
+      <main className={`${productsStyles.productContainer } ${inter.className}`}>
         <h1>Movies</h1>
         <section className={productsStyles.section}>
           {products.map((product) => (

@@ -15,6 +15,14 @@ $button-padding: 10px 20px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+}
+
 .product {
   border-radius: 10px;
   box-shadow: 0 0 10px 0 $box-shadow-color;
@@ -40,8 +48,6 @@ $button-padding: 10px 20px;
     justify-content: space-between;
     flex: 1;
 
-    .name,
-    .price,
     .release-date {
       align-items: center;
       display: flex;
